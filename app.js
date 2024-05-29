@@ -1,5 +1,3 @@
-const myTimeout = setTimeout(3000);
-
-setTimeout(function myTimeout() {
+setTimeout(function() {
     document.body.style.backgroundColor = "#FFD700";
-},1000);
+},3000);
